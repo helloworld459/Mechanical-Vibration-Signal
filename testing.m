@@ -49,12 +49,4 @@ xlim([0 150]); % zoom for clarity
 [amp_max, idx] = max(P1);
 dominant_freq = f(idx);
 
-%% Display required values
 
-fprintf('Sampling interval Ts = %.5f s\n', Ts);
-fprintf('Number of samples N = %d\n', N);
-fprintf('Total time = %.3f s\n', T_total);
-fprintf('Fundamental frequency = %.1f Hz\n', f_rot);
-
-fprintf('Dominant frequency = %.2f Hz\n', dominant_freq);
-fprintf('Amplitude of dominant frequency = %.2f mm/s\n', amp_max);
